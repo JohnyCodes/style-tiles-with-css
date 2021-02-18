@@ -30,20 +30,20 @@ use the fonts in other ways in the font hierarchy etc. */
   --white-space: 1rem;
 }
 
-button {
+/* button {
   transition: all 3s;
-}
+} */
 a {
   transition: all 3s;
 }
-button:hover {
+/* button:hover {
   background-color: var(--link-hover-color);
   transform: scale(3) rotate(40deg);
 }
 
 button:active {
   background-color: var(--bg-color);
-}
+} */
 
 a:hover {
   color: var(--link-hover-color);
@@ -181,7 +181,7 @@ ul li:last-child {
   margin-bottom: 1rem;
 }
 
-button {
+/* button {
   padding: 1rem;
   border-radius: 4px;
   background: var(--link-color);
@@ -206,6 +206,30 @@ button:active,
 button:focus-within {
   outline: 0;
   border-radius: 4px;
+} */
+
+.myButton {
+  box-shadow: 0px 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 13px 32px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #3d768a;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
 }
 
 .typography-main {
